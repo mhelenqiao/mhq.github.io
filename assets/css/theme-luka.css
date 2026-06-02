@@ -21,51 +21,51 @@ body.theme-luka *::after {
 :root {
   --luka-bg: #faf9f7;
   --luka-text: #3d3929;
-  --luka-accent: #c2714f;
-  --luka-secondary: #8c8577;
-  --luka-border: rgba(194, 113, 79, 0.2);
-  --luka-shadow: rgba(194, 113, 79, 0.15);
+  --luka-accent: #545643;
+  --luka-secondary: #909580;
+  --luka-border: rgba(84, 86, 67, 0.2);
+  --luka-shadow: rgba(84, 86, 67, 0.15);
   --luka-social-bg: #ffffff;
-  --luka-social-text: #8b7355;
-  --luka-footer-border: rgba(194, 113, 79, 0.15);
+  --luka-social-text: #545643;
+  --luka-footer-border: rgba(84, 86, 67, 0.15);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --luka-bg: #1a1917;
     --luka-text: #d1cec7;
-    --luka-accent: #e28a67;
-    --luka-secondary: #9b9488;
-    --luka-border: rgba(226, 138, 103, 0.2);
+    --luka-accent: #909580;
+    --luka-secondary: #6b6d5e;
+    --luka-border: rgba(144, 149, 128, 0.2);
     --luka-shadow: rgba(0, 0, 0, 0.3);
     --luka-social-bg: #22211e;
     --luka-social-text: #d1cec7;
-    --luka-footer-border: rgba(226, 138, 103, 0.15);
+    --luka-footer-border: rgba(144, 149, 128, 0.15);
   }
 }
 
 [data-theme="dark"] {
   --luka-bg: #1a1917;
   --luka-text: #d1cec7;
-  --luka-accent: #e28a67;
-  --luka-secondary: #9b9488;
-  --luka-border: rgba(226, 138, 103, 0.2);
+  --luka-accent: #909580;
+  --luka-secondary: #6b6d5e;
+  --luka-border: rgba(144, 149, 128, 0.2);
   --luka-shadow: rgba(0, 0, 0, 0.3);
   --luka-social-bg: #22211e;
   --luka-social-text: #d1cec7;
-  --luka-footer-border: rgba(226, 138, 103, 0.15);
+  --luka-footer-border: rgba(144, 149, 128, 0.15);
 }
 
 [data-theme="light"] {
   --luka-bg: #faf9f7;
   --luka-text: #3d3929;
-  --luka-accent: #c2714f;
-  --luka-secondary: #8c8577;
-  --luka-border: rgba(194, 113, 79, 0.2);
-  --luka-shadow: rgba(194, 113, 79, 0.15);
+  --luka-accent: #545643;
+  --luka-secondary: #909580;
+  --luka-border: rgba(84, 86, 67, 0.2);
+  --luka-shadow: rgba(84, 86, 67, 0.15);
   --luka-social-bg: #ffffff;
-  --luka-social-text: #8b7355;
-  --luka-footer-border: rgba(194, 113, 79, 0.15);
+  --luka-social-text: #545643;
+  --luka-footer-border: rgba(84, 86, 67, 0.15);
 }
 
 body.theme-luka {
