@@ -143,12 +143,25 @@ body.theme-luka .nav-container {
   justify-content: space-between;
 }
 
-body.theme-luka .nav-left a {
-  color: var(--luka-text);
-  font-size: 18px;
-  font-weight: 600;
+body.theme-luka .nav-left {
+  display: flex;
+  gap: 24px;
 }
 
+body.theme-luka .nav-left a {
+  color: var(--luka-text);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+body.theme-luka .nav-left a:hover {
+  opacity: 1;
+  color: var(--luka-accent);
+  filter: none;
+}
 body.theme-luka .theme-toggle {
   border: none;
   background: transparent;
