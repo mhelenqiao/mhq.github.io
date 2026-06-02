@@ -30,6 +30,33 @@ body.theme-luka *::after {
   --luka-footer-border: rgba(84, 86, 67, 0.15);
 }
 
+body.theme-luka .download-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+body.theme-luka .download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 18px;
+  border: 1.5px solid var(--luka-accent);
+  border-radius: 6px;
+  color: var(--luka-accent) !important;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body.theme-luka .download-btn:hover {
+  background: var(--luka-accent);
+  color: #fff !important;
+  filter: none;
+}
+
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --luka-bg: #1a1917;
