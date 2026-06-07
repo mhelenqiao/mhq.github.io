@@ -333,6 +333,7 @@ body.theme-luka .site-tagline {
   color: var(--luka-secondary);
   font-size: 15px;
   font-family: "IM Fell English", Georgia, serif;
+  font-style: normal;
   text-decoration: none;
 }
 
@@ -418,6 +419,14 @@ body.theme-luka .exp-period {
 body.theme-luka .project-card {
   font-size: 15px;
   line-height: 1.7;
+}
+
+body.theme-luka .pub-content .author,
+body.theme-luka .pub-content .title,
+body.theme-luka .pub-content .periodical {
+  font-family: "IM Fell English", Georgia, serif;
+  font-size: 15px;
+  font-style: normal;
 }
 
 body.theme-luka .publications ol.bibliography {
