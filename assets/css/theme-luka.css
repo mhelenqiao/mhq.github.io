@@ -237,6 +237,7 @@ body.theme-luka .site-name {
   color: var(--luka-text);
   font-size: 28px;
   line-height: 1.2;
+   font-family: "Playfair Display", Georgia, serif;
 }
 
 body.theme-luka .site-email {
@@ -324,6 +325,7 @@ body.theme-luka .section-title {
   color: var(--luka-accent);
   font-size: 19px;
   font-weight: 600;
+   font-family: "Playfair Display", Georgia, serif;
 }
 
 body.theme-luka .section-body p {
