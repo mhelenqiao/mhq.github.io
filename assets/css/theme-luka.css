@@ -330,7 +330,7 @@ body.theme-luka .section-title {
 
 body.theme-luka .site-tagline {
   margin: 0 0 12px;
-  color: var(--luka-secondary);
+  color: var(--luka-text);
   font-size: 15px;
   font-family: "IM Fell English", Georgia, serif;
   font-style: normal;
