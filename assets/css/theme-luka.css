@@ -482,7 +482,7 @@ body.theme-luka .pub-content .author {
 
 body.theme-luka .pub-content .periodical {
   margin-bottom: 6px;
-  color: var(--luka-accent);
+  color: var(--luka-secondary);
   font-size: 14px;
    font-family: "Courier Prime", "Courier New", Courier, monospace;
 }
