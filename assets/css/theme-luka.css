@@ -448,6 +448,7 @@ body.theme-luka .pub-content .author,
 body.theme-luka .pub-content .periodical {
   font-size: 15px;
   font-style: normal;
+   font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
 }
 
 body.theme-luka .pub-content .title {
@@ -480,7 +481,6 @@ body.theme-luka .pub-content .author {
   margin-bottom: 4px;
   color: var(--luka-secondary);
   font-size: 14px;
-   font-family: "Courier Prime", "Courier New", Courier, monospace;
 }
 
 body.theme-luka .pub-content .periodical {
