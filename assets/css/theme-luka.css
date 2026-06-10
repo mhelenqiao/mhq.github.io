@@ -162,6 +162,24 @@ body.theme-luka .nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
+}
+
+body.theme-luka .nav-brand {
+  flex-shrink: 0;
+}
+
+body.theme-luka .nav-brand .nav-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--luka-text);
+  text-decoration: none;
+  opacity: 1;
+}
+
+body.theme-luka .nav-brand .nav-name:hover {
+  color: var(--luka-accent);
+  filter: none;
 }
 
 body.theme-luka .nav-left {
