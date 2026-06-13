@@ -171,11 +171,12 @@ body.theme-luka .nav-brand {
 
 body.theme-luka .nav-brand .nav-name {
   font-size: 20px;
-  font-weight: 600;
   color: var(--luka-text);
   text-decoration: none;
   opacity: 1;
-  font-family: "IM Fell English", Georgia, serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal
 }
 
 body.theme-luka .nav-brand .nav-name:hover {
@@ -277,7 +278,7 @@ body.theme-luka .site-name {
   color: var(--luka-text);
   font-size: 28px;
   line-height: 1.2;
-   font-family: "IM Fell English", Georgia, serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 body.theme-luka .site-email {
@@ -365,14 +366,14 @@ body.theme-luka .section-title {
   color: var(--luka-accent);
   font-size: 19px;
   font-weight: 600;
-   font-family: "Playfair Display", Georgia, serif;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal
 }
 
 body.theme-luka .site-tagline {
   margin: 0 0 12px;
   color: var(--luka-text);
   font-size: 15px;
-  font-family: "IM Fell English", Georgia, serif;
   font-style: normal;
   text-decoration: none;
    font-weight: 600;
@@ -587,11 +588,9 @@ body.theme-luka .pub-content .author,
 body.theme-luka .pub-content .periodical {
   font-size: 15px;
   font-style: normal;
-   font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
 }
 
 body.theme-luka .pub-content .title {
-  font-family: "IM Fell English", Georgia, serif;
   font-size: 15px;
   font-style: normal;
 }
@@ -612,14 +611,12 @@ body.theme-luka .pub-content .title {
   color: var(--luka-text);
   font-size: 15px;
   font-weight: 600;
-font-family: "IM Fell English", Georgia, serif;
 }
 
 body.theme-luka .pub-content .author {
   margin-bottom: 4px;
   color: var(--luka-secondary);
   font-size: 14px;
-   font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
 }
 }
 
@@ -627,15 +624,11 @@ body.theme-luka .pub-content .periodical {
   margin-bottom: 6px;
   color: var(--luka-secondary);
   font-size: 14px;
-   font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
-}
 }
 
 body.theme-luka .pub-content .links a {
   font-size: 13px;
   font-weight: 500;
-   font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
-}
 }
 
 body.theme-luka .awards-grid {
@@ -674,7 +667,6 @@ body.theme-luka .site-footer p {
   border-top: 1px solid var(--luka-footer-border);
   color: var(--luka-secondary);
   font-size: 13px;
-   font-family: "IM Fell English", Georgia, serif;
 }
 
 body.theme-luka .template-credit {
